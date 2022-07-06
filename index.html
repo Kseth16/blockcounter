@@ -1,0 +1,61 @@
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <!-- <script src="app.js"></script> -->
+    <!-- <button class="btn btn-default"> test</button> -->
+    
+    <p id="Redcount">Red Count: 1</p>
+    <p id="Yellowcount">Yellow Count: 1</p>
+    <p id="Bluecount">Blue Count: 1</p>
+    <p id="Greencount">Green Count: 1</p>
+
+
+    <button onclick="RedBlockBegin()" class="btn btn-default" id="RedBlock"> RED</button>
+    <button onclick="GreenBlockBegin()" class="btn btn-default" id="GreenBlock"> GREEN</button>
+    <button onclick="BlueBlockBegin()" class="btn btn-default" id="BlueBlock"> BLUE</button>
+    <button onclick="YellowBlockBegin()" class="btn btn-default" id="YellowBlock"> YELLOW</button>
+
+
+
+    <div class="row" id="blockcontain">
+        <div class="col-xs-2" id="Redstartingblock">
+            <p class="RedBlock"></p>
+        </div>
+
+        <div class="col-xs-2" id="Greenstartingblock">
+            <p class="GreenBlock"></p>
+       
+    
+        </div>
+
+
+        <div class="col-xs-2" id="Bluestartingblock">
+            <p class="BlueBlock"></p>
+       
+    
+        </div>
+
+
+        <div class="col-xs-2" id="Yellowstartingblock">
+            <p class="YellowBlock"></p>
+       
+    
+        </div>
+       
+        
+    </div>
+    
+
+    <!-- <script src="app.js"></script> -->
+
+</body>
+</html>
